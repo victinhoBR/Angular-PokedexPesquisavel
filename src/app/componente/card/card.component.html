@@ -1,0 +1,14 @@
+<input class="pesquisa" type="text"(input)="getPokemon($any($event.target).value)" placeholder="pesquisar">
+<br>
+<br>
+<div class="container">
+    <div class="titulo">
+        <h3>{{pokemon.name}}</h3>
+    </div>
+    <div class="corpo">
+        <img class="pic" [src]="pokemon.sprites.front_default" alt="Lucario" height="100%">
+    </div>
+    <div class="tipo">
+        <span class="type" *ngFor="let type of pokemon.types ">{{type.type.name}}</span>
+    </div>
+</div>

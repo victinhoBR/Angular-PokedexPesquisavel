@@ -1,0 +1,55 @@
+.container{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    align-items: center;
+    margin: auto;
+
+}
+.corpo{
+    background-color: #616161;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo>h3{
+color: bisque;
+}
+.titulo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tipo{
+ padding-top: 10px;
+ display: flex;   
+ flex-direction: row;
+ justify-content: center;
+}
+.type{
+    color: bisque;
+    background-color: royalblue;
+    padding: 5px;
+    margin-right: 4px;
+    border-radius: 7px;
+}
+ .pic{
+    margin-top: 23px;
+} 
+.pesquisa{
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+ 
+}
+.corpo>img{
+    margin-bottom: 30px;
+}
